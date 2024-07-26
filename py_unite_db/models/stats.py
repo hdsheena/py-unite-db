@@ -10,6 +10,7 @@ class Stats(BaseModel):
     """
 
     # absolute
+    level: int
     hp: int
     attack: int
     defense: int
@@ -19,6 +20,8 @@ class Stats(BaseModel):
     crit: int
     cooldown_reduction: int
     lifesteal: int
+    attack_speed: float
+    move_speed: int
 
     @staticmethod
     def _transform(v: dict[str, Any]) -> dict[str, Any]:
