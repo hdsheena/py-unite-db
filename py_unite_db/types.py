@@ -1,6 +1,6 @@
 from typing import Literal
 
-Tier = Literal["EX","S", "A", "B", "C", "D", "E", "F"]
+Tier = Literal["EX","S", "A", "B", "C", "D", "E", "F","Y"]
 DamageType = Literal["Physical", "Special"]
 Range = Literal["Ranged", "Melee"]
 Difficulty = Literal["Novice", "Intermediate", "Expert"]
